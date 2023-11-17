@@ -125,11 +125,11 @@ nav #icon {
 #menu:checked~.side-menu {
     margin-left: 0;
 } */
-
 .first-2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .first-3 {
@@ -196,7 +196,6 @@ button {
     height: 467px;
     flex-shrink: 0;
     z-index: 1;
-    position: absolute;
     margin-left: 8%;
     margin-top: 5%;
 }
@@ -204,13 +203,13 @@ button {
 .first-6 {
     background-image: url(./images/men-1.jpeg);
     width: 357px;
-    /* position: relative; */
     height: 448px;
-    flex-shrink: 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 10px 10px 20px 9px;
+    /* margin: 10px 10px 20px 9px; */
+    margin-left: 1.5%;
+    margin-top: 1.7%;
 }
 
 .first-7 {
@@ -222,8 +221,7 @@ button {
     margin-bottom: 40px;
     border-radius: 149px;
     z-index: 2;
-    position: absolute;
-    margin-top: 30%;
+    margin-top: -20%;
     margin-left: 2%;
 
 }
@@ -237,7 +235,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 5px;
-    margin-top: 5px;
+    margin-top: 1.7%;
 
 }
 
@@ -248,6 +246,9 @@ button {
     
     nav{
         height: 90px;
+    }
+    nav li a{
+        line-height: 5px;
     }
     .first{
         margin-top: 0px;
@@ -358,13 +359,6 @@ button {
         margin-right: 20%;
 
     }
-    /* .first-4 {
-        margin-right: 5%;
-        margin-top: 10%;
-        width: 45%;
-        height: 200px;
-        position: static;
-    } */
     
     .first-5 {
         width: 200px;
@@ -377,12 +371,11 @@ button {
     }
     
     .first-6 {
-        width: 180px;
-        height: 280px;
+        width: 190px;
+        height: 290px;
         flex-shrink: 0;
         z-index: 1;
         position: absolute;
-
     }
     
     .first-7 {
@@ -528,44 +521,13 @@ button {
 
 #four1 {
     display: block;
-}
-
-#four2-1 {
-    background-image: url(./images/shap-2.jpeg);
-}
-
-#four2-2 {
-    background-image: url(./images/special-2.jpeg)
-}
-
-#four2-3 {
-    background-image: url(./images/special-3.png)
-}
-
-#four2-4 {
-    background-image: url(./images/special-4.png)
+    margin-left: 10%;
 }
 
 #four3 {
     width: 80%;
     display: block;
-
-}
-
-#four3-1 {
-    background-image: url(./images/special-5.png);
-}
-
-#four3-2 {
-    background-image: url(./images/special-6.png);
-}
-
-#four3-3 {
-    background-image: url(./images/special-7.png);
-}
-
-#four3-4 {
-    background-image: url(./images/special-8.png);
+    margin-left: 10%;
 }
 
 /* fifth page */
@@ -601,6 +563,7 @@ button {
     margin-left: 5%;
     padding-right: 33%;
     text-align: justify;
+    line-height: 20px;
 }
 
 #btn {
@@ -620,7 +583,7 @@ button {
 }
 #sixth1{
     font-size: 20px;
-    margin-top: 8%;
+    margin-top: 18%;
 }
 #leo{
     font-size: 15px;
@@ -665,7 +628,7 @@ button {
 
 #seven1 {
     display: block;
-    margin-top: 0;
+    margin-top: 0;    
 }
 
 #seven2-1 {
@@ -678,7 +641,6 @@ button {
 #seven2-2 {
     width: 300px;
     height: 300px;
-    padding-right: 5%;
     margin-top: 3%;
 }
 
@@ -692,7 +654,7 @@ button {
 #seven2-4 {
     width: 300px;
     height: 300px;
-    margin-left: 9%;
+    margin-left: 3%;
     margin-top: 3%;
 }
 
@@ -701,23 +663,23 @@ button {
 }
 
 #seven4-1 {
-    width: 300px;
+    width: 250px;
     height: 300px;
-    margin-left: 9%;
+    margin-left: 0%;
     margin-top: 3%;
 }
 
 #seven4-2 {
     width: 300px;
     height: 300px;
-    margin-left: 9%;
+    margin-left: 6%;
     margin-top: 3%;
 }
 
 #seven4-3 {
     width: 300px;
     height: 300px;
-    margin-left: 9%;
+    margin-left: 14%;
     margin-top: 3%;
 }
 
@@ -893,7 +855,7 @@ button {
 /* Second page */
 .second {
     width: 95%;
-    height: 850px;
+    height: 950px;
     margin-left: 2.5%;
     background-color: black;
     border: 1px solid white;
@@ -928,6 +890,7 @@ button {
 
 .second-4 {
     display: flex;
+    margin-top: 6.6%;
 }
 
 .second-5 {
@@ -1002,7 +965,10 @@ button {
     /* 205.882% */
     letter-spacing: 0.85px;
     margin-left: 2%;
-    margin-top: 7%;
+    margin-top: 0%;
+}
+.second-9 h2{
+    font-size: 20px;
 }
 
 .second-9 #book {
@@ -1195,10 +1161,10 @@ button {
 .fifth4 p {
     color: #263C3B;
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 50px;
     letter-spacing: 1.5px;
     width: 469px;
     text-align: left;
@@ -1220,7 +1186,7 @@ button {
     width: 274px;
     height: 61px;
     flex-shrink: 0;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 #btn h4 {
@@ -1269,7 +1235,7 @@ button {
     font-weight: 600;
     line-height: normal;
     letter-spacing: 1.35px;
-    width: 672px;
+    width: 700px;
     margin-top: 5%;
     margin-left: 28%;
 }
@@ -1302,7 +1268,15 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* transform: translateY(400%);
+    transition: transform 0.4s ease; */
 }
+/* .seven1:nth-of-type(even){
+    transform: translateY(-400);
+}
+.seven1.show{
+    transform: translate(0);
+} */
 
 #seven2-1 {
     width: 309px;

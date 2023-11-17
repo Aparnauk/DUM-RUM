@@ -47,11 +47,11 @@
                 <nav class="nav-bar">
                     <ul>
                         <li><a class="active" href="#">Home</a></li>
-                        <li><a href="#">Our Legacy</a></li>
-                        <li><a href="#">Our Menu</a></li>
-                        <li><a href="#">Booking</a></li>
-                        <li><a href="#">Toddy&Special</a></li>
-                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#legecy">Our Legacy</a></li>
+                        <li><a href="#seven1">Our Menu</a></li>
+                        <li><a href="#h21">Booking</a></li>
+                        <li><a href="#ourspecial">Toddy&Special</a></li>
+                        <li><a href="#dum">Contact us</a></li>
     
                     </ul>
                 </nav>
@@ -284,6 +284,24 @@
             navBar.classList.toggle("active");
         }
     </script>
+    <!-- <script>
+        const boxes = document.querySelectorAll('.seven1');
+        window.addEventListener('scroll',checkBoxes)
+        checkBoxes()
+
+        function checkBoxes(){
+            const triggerLeft = window.innerWidth / 5*4
+            boxes.forEach(seven1 =>{
+                const boxLeft = seven1.getBoundingClientRect().left
+                if (boxLeft < triggerLeft){
+                    seven1.classList.add('show')
+                }
+                else{
+                    seven1.classList.remove('show')
+                }
+            })
+        }
+    </script> -->
 
 </body>
 
