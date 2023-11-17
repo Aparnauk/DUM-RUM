@@ -119,12 +119,6 @@ nav #icon {
     }
 }
 
-
-
-/* 
-#menu:checked~.side-menu {
-    margin-left: 0;
-} */
 .first-2 {
     display: flex;
     align-items: center;
